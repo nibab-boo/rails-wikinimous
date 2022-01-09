@@ -57,3 +57,6 @@ gem 'faker'
 
 # simple form
 gem 'simple_form'
+
+# font-awesome
+gem 'font-awesome-sass', '~> 5.15.1'
