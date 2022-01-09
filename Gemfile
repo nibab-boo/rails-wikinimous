@@ -54,3 +54,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # faker for seeding
 gem 'faker'
+
+# simple form
+gem 'simple_form'

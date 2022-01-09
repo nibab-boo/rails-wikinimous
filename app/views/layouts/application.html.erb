@@ -11,6 +11,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="navbar navbar-light bg-light justify-content-between px-5">
+      <%= link_to '<h3 class="inline-block">Article</h3>'.html_safe, articles_path %>
+      <%= link_to "create a article", new_article_path %>
+  </div>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
