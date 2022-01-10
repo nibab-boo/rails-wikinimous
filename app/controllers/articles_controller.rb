@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+  # skip_before_action :login_required, :only => [:index, :show]
   before_action :find_article, only: [:show, :edit, :update, :destroy]
 
   def index
